@@ -1,4 +1,17 @@
-export const sonarData = [
+export const day1TestData = [
+  199,
+  200,
+  208,
+  210,
+  200,
+  207,
+  240,
+  269,
+  260,
+  263
+];
+
+export const day1Data = [
   189,
   190,
   199,
