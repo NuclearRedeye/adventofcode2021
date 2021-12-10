@@ -5,6 +5,7 @@ import { day4TestData, day4TestCards, day4Data, day4Cards } from './data/day4.js
 import { day5TestData, day5Data } from './data/day5.js';
 import { day6TestData, day6Data } from './data/day6.js';
 import { day7TestData, day7Data } from './data/day7.js';
+import { day8TestData, day8Data } from './data/day8.js';
 
 import {part1 as day1Part1, part2 as day1Part2} from './day1.js';
 import {part1 as day2Part1, part2 as day2Part2} from './day2.js';
@@ -13,6 +14,7 @@ import {part1 as day4Part1, part2 as day4Part2} from './day4.js';
 import {part1 as day5Part1, part2 as day5Part2} from './day5.js';
 import {part1 as day6Part1, part2 as day6Part2} from './day6.js';
 import {part1 as day7Part1, part2 as day7Part2} from './day7.js';
+import {part1 as day8Part1, part2 as day8Part2} from './day8.js';
 
 console.assert(day1Part1(day1TestData) === 7);
 console.log(`Day 1 Part 1: Answer ${day1Part1(day1Data)} times.`);
@@ -56,3 +58,7 @@ console.log(`Day 7 Part 1: Answer is ${day7Part1(day7Data)}.`);
 
 console.assert(day7Part2(day7TestData) === 168);
 console.log(`Day 7 Part 2: Answer is ${day7Part2(day7Data)}.`);
+
+console.assert(day8Part1(day8TestData) === 26);
+console.log(`Day 8 Part 1: Answer is ${day8Part1(day8Data)}.`);
+
