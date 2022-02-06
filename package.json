@@ -5,7 +5,7 @@
   "type": "module",
   "main": "out/index.js",
   "scripts": {
-    "build": "tsc",
+    "prestart": "tsc",
     "start": "node ./out/index.js"
   },
   "author": "NuclearRedeye",
